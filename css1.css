@@ -1,44 +1,42 @@
-
 /*Dragonball color scheme, http://www.schemecolor.com/goku-dragon-ball-z-cartoon-colors.php */
 
-
-
-h1{
-	font-size: 36px;
-	color: #000;
-
-	text-align: center;
-	padding:200;
-    margin:0;
+body {
+    margin: 0px;
 }
 
 .header {
-	background-color:#F85B1A;
-	margin: 0px;
+    background-color: #F85B1A;
+    height: 300px;
+    position: relative;
 }
 
-.body {
-	
-}
-
-.footer {
-	
+.pic1 {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .header-tabs {
-	background-color: #072083;
-	font: Calibri;
+    background-color: #072083;
+    font: Calibri;
 }
 
 .header-list li {
-	padding: 20px 40px;
-	list-style: none;
-	float: left;
-	color: #072083;
-	font-family: Sans-Serif;
-	font-weight: 800;
-	background-color: #F85B1A;
-	border: 5px solid #072083;
-	padding: 20px 100px;
-	margin: 0px;
+    padding: 20px 40px;
+    list-style: none;
+    float: left;
+    color: #072083;
+    font-family: Sans-Serif;
+    font-weight: 800;
+    background-color: #F85B1A;
+    border: 5px solid #072083;
+    padding: 20px 100px;
+    margin: 0px;
 }
+
+.body {}
+
+.footer {}
