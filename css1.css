@@ -19,24 +19,18 @@ body {
     margin-bottom: auto;
 }
 
-.header-tabs {
-    background-color: #072083;
-    font: Calibri;
-}
-
-.header-list li {
-    padding: 20px 40px;
+.songSection li {
     list-style: none;
-    float: left;
-    color: #072083;
-    font-family: Sans-Serif;
-    font-weight: 800;
-    background-color: #F85B1A;
-    border: 5px solid #072083;
-    padding: 20px 100px;
-    margin: 0px;
+    display: inline-block;
 }
 
-.body {}
+.gokuBase {
+    height: 400px;
+    width: auto;
+}
 
-.footer {}
+.gokuSS1 {
+    height: 400px;
+    width: auto;
+    display: none;
+}
