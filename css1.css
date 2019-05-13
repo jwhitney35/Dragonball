@@ -26,6 +26,7 @@ body {
 
 .ssGoku {
     background-color: #8A9294;
+    height: 500px;
 }
 
 .gokuBase {
@@ -34,6 +35,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
+    left: 200px;
 }
 
 .gokuSS1 {
@@ -42,6 +45,9 @@ body {
     display: none;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
+    position: absolute;
+    left: 200px;
 }
 
 .gokuSS2 {
@@ -50,6 +56,8 @@ body {
     display: none;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
+    left: 200px;
 }
 
 .gokuSS3 {
@@ -58,6 +66,8 @@ body {
     display: none;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
+    left: 200px;
 }
 
 .gokuGOD {
@@ -66,6 +76,8 @@ body {
     display: none;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
+    left: 200px;
 }
 
 .gokuBLUE {
@@ -74,10 +86,59 @@ body {
     display: none;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
+    left: 200px;
+}
+
+.gokuSS4 {
+    height: 400px;
+    width: auto;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 200px;
 }
 
 .transButtons li {
-    list-style: none;
     display: inline-block;
+    color: black;
+    text-align: center;
     padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.transButtons li:hover {
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+}
+
+.transButtons li:active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.ssVeg {
+    background: #2955DC;
+    height: 500px;
+}
+
+.kameha {
+    background: #F9EE54;
+    height: 500px;
+}
+
+.kCharge {
+    height: 200px;
+}
+
+.kLaunch {
+    height: 200px;
+}
+
+.kBlast {
+    height: 200px;
 }
